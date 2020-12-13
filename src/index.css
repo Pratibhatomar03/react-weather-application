@@ -1,1 +1,7 @@
-
+.container {
+  background-image: url("https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683__480.png");
+  height: 1000px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}

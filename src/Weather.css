@@ -1,0 +1,30 @@
+.Weather {
+  border: 1px solid yellow;
+  background-color: rgb(188, 230, 235);
+  display: block;
+  margin-top: 100px;
+
+  border-radius: 10px;
+}
+.main-discription {
+  text-align: center;
+  padding: 70px;
+}
+.Weather ul {
+  list-style: none;
+}
+h1 {
+  padding: 15px;
+}
+form {
+  padding-left: 50px;
+}
+button {
+  background-color: rgb(188, 230, 235);
+  border: 2px solid yellow;
+  padding: 5px;
+}
+button:hover {
+  background-color: yellow;
+  border: 2px solid rgb(188, 230, 235);
+}
