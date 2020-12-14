@@ -19,7 +19,7 @@ export default function WeatherTemperature(props) {
         <span className="temperature">
           <span className="unit">
             {Math.round(props.celsius)} °C |
-            <a href="#" onClick={showFahrenheit}>
+            <a href="/" onClick={showFahrenheit}>
               {" "}
               °F
             </a>
@@ -29,10 +29,10 @@ export default function WeatherTemperature(props) {
     );
   } else {
     return (
-      <div classname="WeatherTemperature">
+      <div className="WeatherTemperature">
         <span className="temperature">{Math.round(fahrenheit())}</span>
         <span className="unit">
-          <a href="#" onClick={showCelsius}>
+          <a href="/" onClick={showCelsius}>
             °C
           </a>
           | °F

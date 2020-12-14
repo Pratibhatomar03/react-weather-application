@@ -8,13 +8,18 @@ export default function App() {
         <Weather defaultCity="Berlin" />
         <footer>
           Coded by{" "}
-          <a href="https://ecstatic-bassi-280461.netlify.app/" target="_blank">
+          <a
+            href="https://ecstatic-bassi-280461.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
             Pratibha Tomar,
           </a>{" "}
           open source on{" "}
           <a
             href="https://github.com/Pratibhatomar03/react-weather-application"
             target="_blank"
+            rel="noreferrer"
           >
             GitHib,
           </a>
@@ -22,6 +27,7 @@ export default function App() {
           <a
             href="https://peaceful-poitras-26321d.netlify.app/"
             target="_blank"
+            rel="noreferrer"
           >
             Netlify
           </a>
