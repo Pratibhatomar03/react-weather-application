@@ -26,13 +26,13 @@ export default function WeatherInfo(props) {
           <ul>
             <li>Wind: {Math.round(props.data.wind)}km/hr</li>
             <li>Humidity: {props.data.humidity}%</li>
-            <li>Feels like: {Math.round(props.data.feels)}° </li>
+            <li>Feels like: {Math.round(props.data.feels)}°C </li>
           </ul>
         </div>
         <div className="col-6">
           <ul>
-            <li>Maximum Temperature: {Math.round(props.data.maxtemp)}° </li>
-            <li>Minimum Temeprature: {Math.round(props.data.mintemp)}° </li>
+            <li>Maximum Temperature: {Math.round(props.data.maxtemp)}°C </li>
+            <li>Minimum Temeprature: {Math.round(props.data.mintemp)}°C </li>
           </ul>
         </div>
       </div>
