@@ -7,5 +7,12 @@
 }
 footer {
   padding-top: 0;
-  color: rgb(246, 131, 16);
+  color: pink;
+  font-weight: bolder;
+  font-size: larger;
+}
+footer:hover {
+  color: yellow;
+  font-size: 40px;
+  font-weight: 300;
 }

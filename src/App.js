@@ -7,16 +7,23 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Berlin" />
         <footer>
-          This poject is coded by{" "}
+          Coded by{" "}
           <a href="https://ecstatic-bassi-280461.netlify.app/" target="_blank">
-            Pratibha Tomar
+            Pratibha Tomar,
           </a>{" "}
-          and is open source on{" "}
+          open source on{" "}
+          <a
+            href="https://github.com/Pratibhatomar03/react-weather-application"
+            target="_blank"
+          >
+            GitHib,
+          </a>
+          and hosted on{" "}
           <a
             href="https://peaceful-poitras-26321d.netlify.app/"
             target="_blank"
           >
-            GitHib
+            Netlify
           </a>
         </footer>
       </div>
